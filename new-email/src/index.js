@@ -6,11 +6,11 @@ const fs = require("fs");
 function enviarHtml(){
   return new Promise((resolve,rejects)=>{
 
-    invoice = "../invoice.html";
+    invoice = "../invoices/ejemplos/example1/index.html";
 
     fs.readFile(invoice, 'utf8', (error, datos) => {
       
-        if (error) reject(error);
+        if (error) rejects(error);
         resolve(datos);
     });  
   })
@@ -39,7 +39,7 @@ async function  main() {
     secure: false, // true for 465, false for other ports
     auth: {
       user: 'thomastalk.me@gmail.com', // generated ethereal user
-      pass: ' ', // generated ethereal password
+      pass: 'J3ermsoft', // generated ethereal password
     },
   });
 
