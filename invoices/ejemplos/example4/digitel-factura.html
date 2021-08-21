@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="2_v2.2/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="menu.css" rel="stylesheet" type="text/css" />
+    <link href="bloque1-2.css" rel="stylesheet" type="text/css" />
+    <link href="bloque2.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <title>DIGITEL</title>
+  </head>
+  <body>
+    <header>
+      <script type="text/javascript">
+        document.cookie =
+          "AA2Cookie=exp===1629586052833&&AA_SEGMENTATION===0&&AA_CONTRACT_TYPE===PREP&&AA_FAILED_AUTH_ATTEMPTS===0&&AA_PSWD_UPDATE_DT===06-Nov-2016 21:57:58&&AA_STATUS===2 &&CORREO===pestanaxd_99@hotmail.com&&AA_DEACTIVATION_DT===20-Sep-2021 18:47:32&&AA_ID===04120112124&&AA_AREA===DIGITEL&&AA_ACTIVATION_DT===14-Feb-2008 09:08:33&&digest===HqwEHqjb5vZFUS76xD+8zHK49NM=; expires==Sun, 5 Sep 2021 18:47:32 UTC; path=/; domain=.digitel.com.ve ";
+      </script>
+
+      <link rel="stylesheet" href="1.2/css/font-awesome.min.css" />
+      <div class="container-fluid superior fixed-top">
+        <div class="row">
+          <div class="col-2 col-md-4 navegacion">
+            <div class="nav_icons">
+              <div class="boton_go_back">
+                <button class="go_back" onclick="goBack()"></button>
+              </div>
+              <div class="boton_toggle">
+                <button class="toggle_menu"></button>
+              </div>
+              <div class="titulo_pagina_header d-none d-md-block">
+                <h1>Tu Cuenta</h1>
+              </div>
+            </div>
+
+            <nav class="lateral afuera">
+              <ul>
+                <button class="toggle_menu cerrar_menu"></button>
+                <div class="menu"></div>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon tu_cuenta">Tu Cuenta</a>
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon tu_cuenta tit_submenu">
+                        Tu Cuenta
+                      </div>
+                    </div>
+
+                    <li>
+                      <a href="/content_available">Contenidos disponibles</a>
+                    </li>
+                    <li><a href="/prepaidConsumption">Consumos</a></li>
+                  </ul>
+                </li>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon recargas_pagos"
+                    >Recargas y Pagos</a
+                  >
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon recargas_pagos tit_submenu">
+                        Recargas y Pagos
+                      </div>
+                    </div>
+
+                    <li><a href="/2_consulta_lineas_01">Afiliar números</a></li>
+                    <li><a href="/payment_method">Métodos de pago</a></li>
+                    <li><a href="/recharge">Recargar</a></li>
+                    <li>
+                      <a href="/recharge_others">Recargas y pagos a terceros</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://412enlinea.digitel.com.ve/INCIDENCE_OF_PAYMENT_DIGITEL/Payment.html"
+                        target="_blank"
+                        >Registrar Pago por Transferencia</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon planes">Planes</a>
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon planes tit_submenu">Planes</div>
+                    </div>
+
+                    <li><a href="/current">Tu plan Actual</a></li>
+                    <li><a href="/change_plan">Cambiar plan</a></li>
+                  </ul>
+                </li>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon gestion_linea"
+                    >Gestión de tu Línea</a
+                  >
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon gestion_linea tit_submenu">
+                        Gestión de tu Línea
+                      </div>
+                    </div>
+
+                    <li><a href="/data_line">Datos de la línea Prepago</a></li>
+                    <li>
+                      <a href="/suspend">Suspender por Robo o Extravío</a>
+                    </li>
+                    <li><a href="/voicemail">Buzón de voz</a></li>
+                    <li><a href="/sms_web">Texto 412</a></li>
+                  </ul>
+                </li>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon consultas">Consultas</a>
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon consultas tit_submenu">
+                        Consultas
+                      </div>
+                    </div>
+
+                    <li>
+                      <a href="/puk_imei">Código PUK / IMEI del equipo</a>
+                    </li>
+                    <li><a href="/yourlines">Tus líneas asociadas</a></li>
+                    <li>
+                      <a href="/historicalRecharges">Histórico de recargas</a>
+                    </li>
+                    <li>
+                      <a href="/historicalMovements"
+                        >Histórico de movimientos</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/tech_serv_orders"
+                        >Órdenes de servicio técnico</a
+                      >
+                    </li>
+                    <li><a href="/Activities">Transacciones</a></li>
+                  </ul>
+                </li>
+                <li class="sub-toggle con_sub_menu">
+                  <a href="#" class="con_icon opciones_seguridad"
+                    >Opciones de Seguridad</a
+                  >
+                  <ul class="sub-menu">
+                    <div class="not_show">
+                      <button class="toggle_menu cerrar_menu"></button>
+                      <div class="menu back_submenu"></div>
+                      <div class="con_icon opciones_seguridad tit_submenu">
+                        Opciones de Seguridad
+                      </div>
+                    </div>
+
+                    <li><a href="/change">Cambiar clave</a></li>
+                    <li>
+                      <a href="/questions">Actualizar preguntas de seguridad</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="sub-toggle">
+                  <a href="/clearData" class="con_icon cerrar_sesion"
+                    >Cerrar Sesión</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <div class="fondo_menu afuera"></div>
+          </div>
+          <div class="col-8 col-md-4">
+            <div class="logo_site mx-auto">
+              <a class="logo_link" href="#"></a>
+            </div>
+          </div>
+          <div class="col-2 col-md-4">
+            <div class="iconos_nav d-none d-sm-flex">
+              <div class="icono_nav perfil_nav"><a href="/data_line"></a></div>
+              <!-- este es el de perfil para nevegador -->
+              <div class="icono_nav msm_nav">
+                <a href="/notifications"></a>
+                <!-- este es el de Mensajes para navegador -->
+                <div class="mensaje">0</div>
+              </div>
+              <div class="icono_nav ayuda_nav"><a href="/help"></a></div>
+              <!-- este es el de Ayuda para navegador -->
+            </div>
+            <div class="iconos_nav d-block d-sm-none iconos_desplegables">
+              <div class="icono_nav msm_nav icono_fijo">
+                <a href="/notifications"></a>
+                <!-- este es el de MENSAJES para imagen movil-->
+                <div class="mensaje">0</div>
+              </div>
+              <div class="sub_menu_nav_icon"></div>
+              <div class="sub_menu_mobile">
+                <div class="icono_nav perfil_nav">
+                  <a href="/data_line"></a>
+                </div>
+                <!-- este es el de perfil para imagen movil-->
+                <div class="icono_nav ayuda_nav"><a href="/help"></a></div>
+                <!-- este es el de AYUDA para imagen movil-->
+              </div>
+            </div>
+
+            <!-- mensajes emergentes-->
+
+            <link href="4.1/css/msg.css" rel="stylesheet" type="text/css" />
+            <!---->
+          </div>
+        </div>
+      </div>
+
+      <div class="container medio">
+        <div class="row">
+          <div class="col-12 col-md-7 col-lg-6 datos">
+            <div class="datos_hc">
+              <div class="nombre">
+                <h3 class="circulo_nombre"><a href="/data_line">EP</a></h3>
+              </div>
+              <div class="mas_datos">
+                <!--	<div class="subtitulo">Hola, Esta es una Prueba Session de TOP INFO</div>-->
+                <div class="subtitulo">
+                  Hola, <span> Cristians Pestana </span>
+                </div>
+                <div class="datos_linea">
+                  Línea Pre-Pago <span class="numero">04120112124</span><br />
+                  Estatus: <span>Activa (Llamadas Entrantes y Salientes)</span
+                  ><br />
+                  Plan: <span>Inteligente Plus 1.1 GB</span><br />
+                  <!--												Cuenta N&#176; <span>XXXXXXXXXX</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-6 datos_right">
+            <div class="datos_right_vc">
+              <div class="subtitulo">
+                Saldo: <span class="bs">Bs 653.778,73</span>
+              </div>
+              <div class="datos_prepago">
+                Renta mensual: Bs 2.646.100,00<br />
+                Fecha de pago: 14 c/mes
+              </div>
+              <button class="paga_recarga">
+                <a href="/recharge">Recargar &#62;</a>
+              </button>
+              <div class="terceros">
+                <a href="/recharge_others">Recargas y pagos a terceros &#62;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-5134305-2"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-5134305-2");
+      </script>
+
+      <!-- titulo de la seccion -->
+      <div class="container inferior">
+        <div class="row no-gutters">
+          <div class="col-12 text-center text-md-left">
+            <h2 class="subtitulo pl-main">Afiliar números</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="alto_minimo">
+      <div class="container solo-fluido_mobile">
+        <div class="row no-gutters align-items-center">
+          <div class="col-12 col-md-10 offset-md-1 container_afiliar">
+            <div class="caja_afiliar d-flex justify-content-between">
+              <div class="align-self-center">Nuevo número</div>
+              <button href="#" class="submitir_site activo">
+                <a href="https://digitelenlinea.digitel.com.ve/affiliate"
+                  >Afiliar &#62;</a
+                >
+              </button>
+              <!-- <a href="https://digitelenlinea.digitel.com.ve/affiliate" class="btn submitir_site activo">Afiliar &#62;</a> -->
+            </div>
+
+            <!-- <button href="#" class="submitir_site activo">Afiliar &gt;</button> -->
+
+            <div class="mensaje text-center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container limitado">
+        <div class="row mb-30">
+          <div class="linea_row"></div>
+          <div class="col-12 text-center">
+            <h2 class="subtitulo pl-main">Tus números afiliados</h2>
+          </div>
+          <div class="error_container">
+            <div class="error visible"></div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+            <div class="listado_afiliados listado_izquierda">
+              <h3 class="text-center text-md-left">Recargar saldo</h3>
+
+              <!-- inicio modal eliminar afiliado -->
+              <div class="un_numero d-flex">
+                <div id="nombre" class="nombre">Cristians</div>
+                <div id="numero" class="numero">04120112124</div>
+                <div class="papelera">
+                  <a
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#modal_eliminar_04120112124"
+                  >
+                    <div class="icono_papelera"></div>
+                  </a>
+                </div>
+              </div>
+              <!-- modal eliminar afiliado -->
+              <div
+                id="modal_eliminar_04120112124"
+                class="modal fade"
+                tabindex="-1"
+                role="dialog"
+              >
+                <div
+                  class="
+                    modal-dialog modal-dialog-centered modal-lg modal-dig-1
+                  "
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header"></div>
+                    <div class="modal-body text-center modal_factura_correo">
+                      ¿Estás seguro que deseas eliminar el número de
+                      <strong>Cristians - 04120112124</strong>?
+                    </div>
+                    <div class="modal-footer text-center d-block d-md-flex">
+                      <button
+                        type="button"
+                        class="btn activo submitir_site boton_modal"
+                        data-dismiss="modal"
+                      >
+                        < No
+                      </button>
+                      <!-- <button type="button" class="btn activo submitir_site boton_modal" data-dismiss="modal">Si ></button>
+																		<button type="button" onclick="javascript:enviar_formulario()" class="btn activo">Probando ></button> -->
+                      <button
+                        id="btnCancelarFactura"
+                        class="btn activo submitir_site boton_modal"
+                        data-id="Cristians|04120112124|04120112124|Recarga Web"
+                      >
+                        Si >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fin modal eliminar afiliado -->
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="listado_afiliados listado_derecha">
+              <h3 class="text-center text-md-left">Pagar factura</h3>
+              <div class="un_numero d-flex">
+                <i>No tienes afiliados </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FORM archivo js con  route('2_consulta_lineas_02') validaciones en el modal -->
+    <form
+      id="f1"
+      name="f1"
+      action="https://digitelenlinea.digitel.com.ve/2_consulta_lineas_01"
+      method="POST"
+    >
+      <input
+        type="hidden"
+        name="_token"
+        value="9N9MOciqOLjIACb7daiXcIDyTyny50tIHk4QngyR"
+      />
+      <input
+        type="hidden"
+        value=""
+        name="datoUnaffiliation"
+        id="datoUnaffiliation"
+      />
+    </form>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="fase2/js/jquery-3.2.1.min.js"></script>
+    <script src="fase2/js/popper.min.js"></script>
+    <script src="fase2/js/bootstrap.min.js"></script>
+    <!-- MODIFICACIÓN archivo js con validaciones -->
+    <script src="fase2/js/validacion.js"></script>
+    <script src="fase2/js/digitel.js"></script>
+
+    <script>
+      $("button[id=btnCancelarFactura]").on("click", function () {
+        var vDatoModal = $(this).data("id");
+        document.getElementById("datoUnaffiliation").value = vDatoModal;
+        document.f1.submit();
+      });
+
+      $("button[id=btnCancelarFactura2]").on("click", function () {
+        window.location = "/vQuestion/affiliate/Desafiliar Número";
+        // var vDatoModal=$(this).data("id");
+        // document.getElementById("datoUnaffiliation").value=vDatoModal;
+        // document.f1.submit();
+      });
+    </script>
+
+    <footer class="do-not-print">
+      <div class="container">
+        <!-- ultima visita -->
+        <div class="row">
+          <div class="col-12 text-right ultima_visita">
+            Última visita: 10/03/2021
+          </div>
+        </div>
+      </div>
+      <div class="alto">
+        <div class="container">
+          <div class="row alto_footer no-gutters">
+            <div class="col-12 col-md-6">
+              <div class="contactanos">
+                <h2>Ayuda</h2>
+                <p>
+                  <a href="/helpview?cat=0&type=pf&a">Preguntas frecuentes</a>
+                </p>
+                <p><a href="/helpview?cat=0&type=pp">Paso a paso</a></p>
+                <p><a href="/tickets_soporte">Ticket de soporte</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="siguenos">
+                <h2>Síguenos</h2>
+                <nav class="navbar navbar-expand">
+                  <ul
+                    class="
+                      navbar-nav
+                      mx-auto
+                      w-100
+                      justify-content-center justify-content-md-start
+                    "
+                  >
+                    <li class="nav-item">
+                      <a
+                        href="https://www.facebook.com/Digitel412"
+                        target="_blank"
+                        ><i class="fa fa-facebook-square"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="https://www.instagram.com/Digitel412/"
+                        target="_blank"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="https://www.youtube.com/user/DigitelConecta"
+                        target="_blank"
+                        ><i class="fa fa-youtube-play"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="row menu_footer">
+            <div class="col-12">
+              <nav class="menu_inferior">
+                <a href="/prepaid">Tu Cuenta</a>
+                <a href="/recharge_others">Recargas y pagos a terceros</a>
+                <a href="/current">Planes</a>
+                <a href="/data_line">Gestión de tu Línea</a>
+                <a href="/queries">Consultas</a>
+                <a href="/help">Ayuda</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bajo">
+        <div class="container px-0-xs">
+          <div class="row no-gutters">
+            <div class="footer_izq col-12 col-sm-6">
+              <a href="#">Aviso Legal</a>
+            </div>
+            <div class="footer_der col-12 col-sm-6">
+              Todos los derechos reservados © Digitel 2019
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

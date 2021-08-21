@@ -1,0 +1,697 @@
+/* Scss Document */
+/*SMS */
+/* DATOS */
+/*
+$grid-breakpoints: (
+	xxl: 1500px
+);
+$container-max-widths: (
+	xxl: 1440px
+);
+*/
+.mt-boton {
+    margin-top: 35px; }
+  
+  .fs-16 {
+    font-size: 16px !important; }
+  
+  .fs-18 {
+    font-size: 18px !important; }
+  
+  textarea:focus, input:focus {
+    outline: none !important; }
+  
+  textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #414042;
+    width: 100%;
+    color: #414042; }
+  
+  textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-style: italic;
+    color: #414042; }
+  
+  textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    font-style: italic;
+    color: #414042; }
+  
+  textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    font-style: italic;
+    color: #414042; }
+  
+  textarea:-moz-placeholder {
+    /* Firefox 18- */
+    font-style: italic;
+    color: #414042; }
+  
+  .animatronic {
+    transition: all 2s ease-in !important; }
+  
+  .mx-15px {
+    margin-left: -15px;
+    margin-right: -15px; }
+  
+  .flecha_arriba {
+    display: block;
+    background-image: url(../images/flecha_up.svg);
+    background-repeat: no-repeat;
+    min-height: 32px !important;
+    width: 100% !important;
+    background-position: center right; }
+  
+  main {
+    /* bloque consular lineas */
+    /* actualizar metodos de pago */ }
+    main .etiqueta {
+      margin-top: 30px; }
+    main .icono_pagar_mismo {
+      background-image: url(../images/icono_pagar_mismo.svg);
+      padding-left: 40px;
+      background-repeat: no-repeat;
+      min-height: 35px;
+      line-height: 35px; }
+    main .icono_pagar_recarga {
+      background-image: url(../images/icono_pagar_recarga.svg);
+      padding-left: 40px;
+      background-repeat: no-repeat;
+      min-height: 35px;
+      line-height: 35px; }
+    main .icono_recargar_verde {
+      background-image: url(../images/icono_recargar_verde.svg);
+      padding-left: 35px;
+      background-repeat: no-repeat;
+      min-height: 35px;
+      line-height: 35px;
+      background-position: center center; }
+    main .icono_proceso_pago_azul_small {
+      background-image: url(../images/icono_proceso_pago_azul.svg);
+      background-size: 35px 35px;
+      padding-left: 35px;
+      background-repeat: no-repeat;
+      min-height: 35px;
+      line-height: 35px;
+      background-position: center center; }
+    main .icono_proceso_pago_azul {
+      background-image: url(../images/icono_proceso_pago_azul.svg);
+      padding-left: 35px;
+      background-repeat: no-repeat;
+      min-height: 40px;
+      line-height: 41px;
+      background-position: center center; }
+    main .icono_tarjeta_pago {
+      background-image: url(../images/icono_tarjeta_pago.svg);
+      padding-left: 35px;
+      background-repeat: no-repeat;
+      min-height: 35px;
+      line-height: 35px;
+      background-position: center center; }
+      main .icono_tarjeta_pago.icono_grande {
+        width: 76px;
+        min-height: 74px;
+        margin: 40px auto 0;
+        background-size: 76px 74px; }
+    main .icono_guardar {
+      background-image: url(../images/icono_guardar.svg);
+      background-repeat: no-repeat;
+      min-width: 20px;
+      min-height: 18px;
+      line-height: 18px;
+      background-position: center center;
+      position: relative;
+      top: 5px;
+      display: inline-block;
+      margin-left: 5px; }
+    main .icono_papelera {
+      background-image: url(../images/icono_papelera.svg);
+      background-repeat: no-repeat;
+      min-width: 17px;
+      min-height: 22px;
+      line-height: 22px;
+      background-position: center center;
+      display: inline-block;
+      position: relative;
+      top: 2px; }
+    main .form_small h1, main .form_small h2 {
+      font-size: 20px;
+      font-weight: 600; }
+      main .form_small h1 i, main .form_small h2 i {
+        font-weight: 400;
+        font-style: normal !important; }
+    main .form_small a {
+      color: #52328F;
+      font-size: 16px;
+      font-weight: 600; }
+    main .form_small .form-check-label {
+      font-size: 18px;
+      margin-right: 10px; }
+    main .form_small .botones-radio_lista {
+      display: block; }
+      main .form_small .botones-radio_lista .form-check {
+        padding-left: 0; }
+        main .form_small .botones-radio_lista .form-check label {
+          padding-left: 35px;
+          font-size: 16px;
+          margin-bottom: 10px;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap; }
+          main .form_small .botones-radio_lista .form-check label .tit {
+            flex: 1;
+            min-width: 100px;
+            color: #414042;
+            display: inline-flex;
+            margin-top: 5px; }
+          main .form_small .botones-radio_lista .form-check label .monto {
+            flex: 1;
+            opacity: 1;
+            white-space: pre;
+            margin-top: 5px;
+            min-width: 50%; }
+          main .form_small .botones-radio_lista .form-check label span {
+            color: #808285; }
+        main .form_small .botones-radio_lista .form-check.inactivo .form-check-label {
+          opacity: .50 !important; }
+        main .form_small .botones-radio_lista .form-check.inactivo .form-check-input {
+          opacity: .50 !important; }
+      main .form_small .botones-radio_lista.desabilitado .monto {
+        opacity: 0 !important; }
+    main .form_small .mensaje {
+      font-size: 15px;
+      font-style: italic;
+      padding: 10px 50px 10px 0; }
+    main .links {
+      margin: 20px; }
+      main .links .un_link {
+        margin: 10px auto; }
+    main .tab_recarga_paga .pretitulo {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px; }
+    main .tab_recarga_paga .nav-tabs .nav-item {
+      height: 47px !important;
+      flex: 1;
+      text-align: center;
+      align-content: center;
+      margin-right: 1px; }
+      main .tab_recarga_paga .nav-tabs .nav-item:last-child {
+        margin-right: 0; }
+      main .tab_recarga_paga .nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+        font-weight: 600;
+        color: #52328F;
+        text-decoration: none;
+        border: 0;
+        padding: 0 10px;
+        min-height: 47px;
+        background-color: #E6E7E8;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        line-height: 18px;
+        height: 100%;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center; }
+        main .tab_recarga_paga .nav-tabs .nav-item .nav-link.active {
+          background-color: #52328F;
+          color: #FFFFFF;
+          font-weight: 600; }
+      main .tab_recarga_paga .nav-tabs .nav-item:first-of-type > .nav-link {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 0; }
+      main .tab_recarga_paga .nav-tabs .nav-item:last-of-type > .nav-link {
+        border-top-right-radius: 6px;
+        border-top-left-radius: 0; }
+    main .tab_recarga_paga .tab-content {
+      border-left: 2px solid #E6E7E8;
+      border-bottom: 2px solid #E6E7E8;
+      border-right: 2px solid #E6E7E8;
+      padding: 40px 0 35px; }
+      main .tab_recarga_paga .tab-content .tab-pane {
+        transition: opacity 1s ease-in; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado {
+          margin: 5px 0;
+          padding: 10px 30px;
+          border-radius: 4px; }
+          main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado .afiliado {
+            padding-left: 20px;
+            line-height: 1.2em; }
+            main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado .afiliado strong {
+              font-weight: 600; }
+            main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado .afiliado a {
+              text-decoration: none; }
+          main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado.seleccionado {
+            background-color: #E6E7E8 !important; }
+          main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado:hover {
+            cursor: pointer;
+            background-color: #F4F4F4; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado:nth-child(7) + .afiliar_n a {
+          color: #808285 !important;
+          pointer-events: none;
+          cursor: default;
+          text-decoration: none; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado_pago:nth-child(5) + .afiliar_n a {
+          color: #808285 !important;
+          pointer-events: none;
+          cursor: default;
+          text-decoration: none; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .afiliar_n {
+          padding: 10px 0 10px 30px; }
+          main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .afiliar_n a {
+            font-size: 18px;
+            color: #52328F !important;
+            font-weight: 600 !important; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_der .sub_panel {
+          padding: 12px 35px;
+          width: 100%; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_inactivo {
+          opacity: .5; }
+        main .tab_recarga_paga .tab-content .tab-pane .no_tienes_tarjeta {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          min-height: 300px;
+          font-size: 18px;
+          font-weight: 600; }
+          main .tab_recarga_paga .tab-content .tab-pane .no_tienes_tarjeta .icono_tarjeta_pago {
+            min-width: 62px;
+            min-height: 60px;
+            background-size: 62px 60px;
+            margin-bottom: 20px; }
+    main .encabezado_proceso {
+      font-size: 18px;
+      margin-bottom: 30px;
+      font-weight: 400; }
+      main .encabezado_proceso h3 {
+        font-size: 20px;
+        font-style: normal;
+        margin-bottom: 15px; }
+      main .encabezado_proceso .icono_recargar_verde {
+        margin-bottom: 10px; }
+      main .encabezado_proceso strong {
+        font-style: normal;
+        padding-left: 5px;
+        font-weight: 600; }
+    main .pago_exitoso .tabla_pago {
+      margin: 65px auto; }
+      main .pago_exitoso .tabla_pago .columna {
+        font-size: 18px; }
+        main .pago_exitoso .tabla_pago .columna div {
+          margin: 10px 0; }
+          main .pago_exitoso .tabla_pago .columna div strong {
+            font-weight: 600; }
+    main .pago_exitoso .guardar {
+      margin-bottom: 25px; }
+      main .pago_exitoso .guardar a {
+        color: #5C2B86;
+        font-size: 18px;
+        font-weight: 600; }
+    main .inputfile {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1; }
+    main .inputfile + label {
+      color: #A12383;
+      text-align: left;
+      background-color: white;
+      display: block;
+      font-size: 16px;
+      text-decoration: underline;
+      cursor: pointer;
+      /* "hand" cursor */ }
+    main .container_afiliar {
+      margin-bottom: 20px; }
+      main .container_afiliar .caja_afiliar {
+        background-color: #E6E7E8;
+        border-radius: 6px;
+        padding: 35px;
+        font-size: 20px;
+        font-weight: 600; }
+        main .container_afiliar .caja_afiliar .submitir_site {
+          background-color: #A7A7A7; }
+          main .container_afiliar .caja_afiliar .submitir_site.activo {
+            background-color: #52328F; }
+      main .container_afiliar .mensaje {
+        line-height: 1.2em;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: 15px;
+        min-height: 38px;
+        padding: 0 20px; }
+    main .listado_afiliados {
+      margin-top: 40px; }
+      main .listado_afiliados h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #808285; }
+      main .listado_afiliados .un_numero {
+        height: 80px;
+        border-bottom: 2px solid #E6E7E8;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        line-height: 18px; }
+        main .listado_afiliados .un_numero div {
+          min-height: 20px; }
+        main .listado_afiliados .un_numero .nombre {
+          color: #52328F;
+          font-weight: 600;
+          flex: 3; }
+        main .listado_afiliados .un_numero .numero {
+          font-weight: 400;
+          flex: 3;
+          text-align: right; }
+        main .listado_afiliados .un_numero .papelera {
+          padding-right: 5px;
+          max-width: 40px;
+          min-width: 40px;
+          width: 45px;
+          text-align: right; }
+      main .listado_afiliados .una_tarjeta .icono_tarjeta_pago {
+        height: 40px;
+        margin-right: 5px; }
+      main .listado_afiliados .una_tarjeta .nombre {
+        color: #414042 !important; }
+      main .listado_afiliados .mensaje {
+        font-style: italic;
+        padding-top: 15px; }
+      main .listado_afiliados .mensaje_no_tarjetas {
+        background-color: #E6E7E8;
+        border-radius: 6px;
+        padding: 35px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+        font-weight: 600;
+        font-size: 18px; }
+    main .tab_actualizar .nav-tabs .nav-item .nav-link {
+      padding-left: 20px;
+      padding-right: 20px; }
+    main .tab_actualizar .tab-pane {
+      padding: 0 40px; }
+      main .tab_actualizar .tab-pane ul li {
+        margin-left: 20px; }
+    main .tab_actualizar h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    main .tab_actualizar a {
+      color: #52328F;
+      font-weight: 600; }
+    main .encabezado_actualizar {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 400; }
+      main .encabezado_actualizar h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px; }
+      main .encabezado_actualizar strong {
+        font-weight: 600; }
+    main .icono_tarjeta_actualizar {
+      background-image: url(../images/icono_tarjeta_actualizar.svg);
+      background-repeat: no-repeat;
+      min-width: 76px;
+      min-height: 74px;
+      background-position: center center;
+      display: inline-block;
+      position: relative;
+      margin-right: 15px; }
+    main .icono_cuenta_bancaria_actualizar {
+      background-image: url(../images/icono_cuenta_bancaria_actualizar.svg);
+      background-repeat: no-repeat;
+      min-width: 76px;
+      min-height: 74px;
+      background-position: center center;
+      display: inline-block;
+      position: relative;
+      margin-right: 15px; }
+  
+  .modal .logo {
+    border-bottom: 2px solid #808285;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center; }
+  .modal .modal-header h5 {
+    font-size: 18px;
+    font-weight: 600; }
+  .modal .modal-body ul {
+    margin-left: 25px; }
+    .modal .modal-body ul li {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.1em;
+      margin-bottom: 7px; }
+  .modal .modal-body ul.descargar {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+    .modal .modal-body ul.descargar li {
+      width: 100%; }
+      .modal .modal-body ul.descargar li span {
+        float: right;
+        margin-right: 20px; }
+  .modal .modal-body .dos_columnas {
+    column-count: 2;
+    padding: 0;
+    margin: 0 15px 20px 50px; }
+  .modal .modal-body a {
+    color: #52328F;
+    font-weight: 600; }
+  .modal .modal-body .recibo {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 20px; }
+    .modal .modal-body .recibo div {
+      margin-bottom: 10px; }
+  .modal h2 {
+    margin-top: 15px !important;
+    font-size: 22px; }
+  .modal .modal_print .modal-header, .modal .modal_print .modal-footer {
+    padding: 0; }
+  .modal .close_con_padding {
+    margin: 0 !important; }
+  
+  @media (max-width: 575px) {
+    .descargar li div {
+      display: block !important; }
+  
+    main .form_small .botones-radio_lista .form-check label {
+      display: block !important; }
+      main .form_small .botones-radio_lista .form-check label .tit, main .form_small .botones-radio_lista .form-check label .monto {
+        display: block; }
+  
+    .modal .modal-body .dos_columnas {
+      column-count: 1; } }
+  /* Small devices (landscape phones, 576px and up)  -sm */
+  @media (min-width: 576px) {
+    .descargar li div {
+      display: flex;
+      flex: 3; }
+      .descargar li div.carta {
+        justify-content: flex-end;
+        flex: 2 !important; } }
+  @media (max-width: 767px) {
+    .solo-fluido_mobile {
+      padding: 0; }
+  
+    .container.limitado {
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto; }
+  
+    main .form_small .form-check-label {
+      font-size: 16px;
+      margin-right: 0;
+      text-align: left; }
+    main .form_small .botones_radio {
+      display: block;
+      text-align: left; }
+      main .form_small .botones_radio div {
+        margin-top: 7px;
+        margin-bottom: 7px; }
+    main .form_small .botones-radio_lista .form-check label .monto {
+      text-align: left !important; }
+    main .tab_recarga_paga .nav-tabs .nav-item {
+      min-height: 55px; }
+      main .tab_recarga_paga .nav-tabs .nav-item .nav-link {
+        padding: 2px 8px;
+        font-size: 14px;
+        line-height: 15px !important; }
+    main .tab_recarga_paga .tab-content .tab-pane form {
+      display: block; }
+    main .tab_recarga_paga .tab-content .tab-pane .panel_izq {
+      display: block;
+      margin: 0; }
+    main .tab_recarga_paga .tab-content .tab-pane .panel_der {
+      display: block;
+      margin: 0; }
+      main .tab_recarga_paga .tab-content .tab-pane .panel_der .sub_panel {
+        padding: 12px 25px; }
+    main .tab_actualizar h3 {
+      padding-left: 15px; }
+    main .tab_actualizar .tab-pane {
+      padding: 0 15px; }
+    main .tab_actualizar .tab-content {
+      border: 0; }
+    main .tab_actualizar .nav-item > .nav-link {
+      border-radius: 0 !important; }
+    main .caja_afiliar {
+      border-radius: 0;
+      line-height: 18px; }
+      main .caja_afiliar .submitir_site {
+        min-width: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        white-space: pre; }
+    main .listado_afiliados .mensaje {
+      padding: 5px 15px;
+      line-height: 1.2em; }
+    main .listado_afiliados .un_numero .papelera {
+      padding-right: 0;
+      max-width: 25px;
+      min-width: 25px;
+      width: 30px; }
+  
+    .boton_modal {
+      margin: 10px 1px !important; }
+  
+    .modal .modal-body .dos_columnas {
+      padding: 0 15px 0 0;
+      margin: 0; }
+      .modal .modal-body .dos_columnas.primera ul {
+        margin-left: 15px !important; }
+    .modal .modal-body ul {
+      margin-left: 15px; }
+  
+    .listado_afiliados {
+      margin-left: -15px;
+      margin-right: -15px; }
+      .listado_afiliados .un_numero .nombre {
+        font-size: 13px;
+        flex: 3; }
+      .listado_afiliados .un_numero .numero {
+        font-size: 13px; }
+  
+    .submitir_site.separado {
+      margin-top: 2px; } }
+  @media (min-width: 768px) {
+    .mx-md-15px {
+      margin-left: -15px;
+      margin-right: -15px; }
+  
+    main .form_small .links {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px -40px; }
+    main .form_small .form-check-label {
+      font-size: 18px;
+      margin-right: 10px; }
+    main .form_small .botones_radio {
+      display: flex; }
+      main .form_small .botones_radio div {
+        margin: 7px 35px 7px 0 !important; }
+        main .form_small .botones_radio div:last-of-type {
+          margin-right: 0 !important; }
+        main .form_small .botones_radio div label {
+          position: relative;
+          top: 2px; }
+    main .tab_recarga_paga .tab-content .tab-pane .panel_izq {
+      flex: 1;
+      display: flex;
+      justify-content: center; }
+      main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado {
+        padding: 10px 45px 10px 15px; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado.seleccionado {
+          background-image: url(../images/flecha_activo.svg);
+          background-position: right center;
+          background-repeat: no-repeat;
+          background-size: 32px 32px; }
+        main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado .afiliado {
+          padding: 0 10px; }
+    main .tab_recarga_paga .tab-content .tab-pane .panel_der {
+      display: flex;
+      flex: 1; }
+  
+    .pago_exitoso .tabla_pago .columna {
+      flex: 1; }
+  
+    .listado_afiliados .un_numero .nombre {
+      font-size: 18px;
+      flex: 3; }
+    .listado_afiliados .un_numero .numero {
+      font-size: 18px;
+      text-align: right; }
+  
+    .submitir_site.separado {
+      margin-top: 2px; } }
+  @media (min-width: 992px) {
+    main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado {
+      padding: 10px 100px 10px 30px; }
+      main .tab_recarga_paga .tab-content .tab-pane .panel_izq .lista_afiliados .num_afiliado .afiliado {
+        padding-left: 20px;
+        padding-right: 0; }
+    main .botones-radio_lista .form-check label .monto {
+      text-align: right !important; }
+    main .listado_afiliados.listado_izquierda {
+      margin-right: 20px; }
+    main .listado_afiliados.listado_derecha {
+      margin-left: 20px; }
+  
+    .submitir_site.separado {
+      margin-top: 0; } }
+  @media (min-width: 1200px) {
+    main .tab_actualizar .nav-tabs .nav-item .nav-link {
+      padding-left: 40px;
+      padding-right: 40px; } }
+  @media print {
+    body {
+      min-width: 210mm;
+      height: 297mm; }
+  
+    .do-not-print {
+      display: none;
+      border: 0 solid transparent; }
+  
+    .print {
+      display: block !important; }
+  
+    .modal {
+      min-width: 210mm;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      background-color: white !important; }
+  
+    .modal-dialog {
+      min-width: 210mm;
+      margin-top: 0;
+      min-height: 100px;
+      width: 100%;
+      border: 0; }
+  
+    .modal-content {
+      margin-top: 0;
+      min-height: 100%;
+      border: 0;
+      min-width: 210mm;
+      width: 100%; }
+      .modal-content .recibo div {
+        margin-bottom: 20px; }
+      .modal-content h2 {
+        margin: 50px auto !important; }
+  
+    .modal-footer {
+      margin-top: 100px; } }
+  
+  /*# sourceMappingURL=bloque2.css.map */
